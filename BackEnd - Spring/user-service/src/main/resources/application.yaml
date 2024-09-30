@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: mysql
+
+server:
+  port: 8080
+  error:
+    include-message: always
+
